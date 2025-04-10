@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Surprise Box</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="images/icon.png" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Gift Box -->
+      <div class="box">
+        <img src="images/lid.png" alt="lid" class="lid" />
+        <img src="images/box.png" alt="box-base" class="box-base" />
+
+        <!-- Happy Birthday Balloon -->
+        <div class="happy-balloon-box">
+          <img
+            src="images/happy-birthday.png"
+            alt="Happy Birthday Balloon"
+            class="happy-balloon"
+          />
+        </div>
+      </div>
+
+
+      <!-- Balloons -->
+      <div class="balloons" id="balloons">
+        <img src="images/balloon1.png" alt="balloon" class="balloon balloon1" />
+        <img src="images/balloon2.png" alt="balloon" class="balloon balloon2" />
+        <img src="images/balloon3.png" alt="balloon" class="balloon balloon3" />
+        <img src="images/balloon4.png" alt="balloon" class="balloon balloon4" />
+        <img src="images/balloon5.png" alt="balloon" class="balloon balloon5" />
+        <img src="images/balloon6.png" alt="balloon" class="balloon balloon6" />
+        <!-- <img src="images/2151.jpg" alt="balloon" class="" /> -->
+       <div class="memories">
+            <img src="images/2151.jpg" alt="Memory 1" class="memory memory1" />
+            <img src="images/77.jpg" alt="Memory 2" class="memory memory2" />
+            <img src="images/heart.jpg" alt="Memory 3" class="memory memory3" />
+            <img src="images/2151.jpg" alt="Memory 4" class="memory memory4" />
+            <img src="images/87.jpg" alt="Memory 5" class="memory memory5" />
+            <img src="images/mine.jpg" alt="Memory 6" class="memory memory6" />
+            <img src="images/7752.jpg" alt="Memory 7" class="memory memory7" />
+          </div>
+      </div>
+    </div>
+  </div>
+
+     <!-- Explosion Sound (for confetti) -->
+    <audio id="explosion-sound"src="audio/explosion.mp3"preload="auto" ></audio>
+
+    <!-- Birthday Music -->
+    <audio id="birthday-music"src="audio/happy-birthday.mp3" preload="auto"  loop></audio>
+
+
+    <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+  </body>
+</html>
